@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_latam_document_type_FC" model="l10n_latam.document.type">
+        <field name="code">01</field>
+        <field name="name">Factura de Credito Fiscal</field>
+        <field name="internal_type">invoice</field>
+        <field name="country_id" ref="base.ve"/>
+        <field name="active">true</field>
+    </record>
+
+    <record id="l10n_latam_document_type_FP" model="l10n_latam.document.type">
+        <field name="code">02</field>
+        <field name="name">Factura Proforma</field>
+        <field name="internal_type">invoice</field>
+        <field name="country_id" ref="base.ve"/>
+        <field name="active">true</field>
+    </record>
+
+    <record id="l10n_latam_document_type_FS" model="l10n_latam.document.type">
+        <field name="code">03</field>
+        <field name="name">Factura Simplificada</field>
+        <field name="internal_type">invoice</field>
+        <field name="country_id" ref="base.ve"/>
+        <field name="active">true</field>
+    </record>
+
+    <record id="l10n_latam_document_type_ND" model="l10n_latam.document.type">
+        <field name="code">04</field>
+        <field name="name">Notas de Debito</field>
+        <field name="internal_type">debit_note</field>
+        <field name="country_id" ref="base.ve"/>
+        <field name="active">true</field>
+    </record>
+
+    <record id="l10n_latam_document_type_NC" model="l10n_latam.document.type">
+        <field name="code">05</field>
+        <field name="name">Notas de Credito</field>
+        <field name="internal_type">credit_note</field>
+        <field name="country_id" ref="base.ve"/>
+        <field name="active">true</field>
+    </record>
+
+
+
+</odoo>
