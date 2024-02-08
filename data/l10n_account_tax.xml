@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="l10n_ve_account_tax_iva16_sale" model="account.tax">
+        <field name="name">IVA (16.0%) ventas</field>
+        <field name="description">IVA (16.0%) ventas</field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">16.0000</field>
+        <field name="active">true</field>
+    </record>
+    
+    <record id="l10n_ve_account_tax_iva16_purchase" model="account.tax">
+        <field name="name">IVA (16.0%) compras</field>
+        <field name="description">IVA (16.0%) compras</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="amount">16.0000</field>
+        <field name="active">true</field>
+    </record>
+
+</odoo>
+    

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="l10n_ve_extra_res_partner_form">
+      <field name="name">l10n.ve.res.partner.form.custom</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+
+        <field name="vat" position="after">
+            <field name="is_free_zone" string="Zona Franca"/>
+        </field>
+        
+      </field>
+    </record>
+ </data>
+</odoo>

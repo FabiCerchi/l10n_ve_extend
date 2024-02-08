@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="l10n_ve_extra_res_country_form">
+      <field name="name">l10n.ve.res.country.form</field>
+      <field name="model">res.country</field>
+      <field name="inherit_id" ref="base.view_country_form"/>
+      <field name="arch" type="xml">
+
+        <field name="state_ids" position="after">
+            <field name="free_zone_domain" invisible="1"/>
+            <label for="free_zone_ids"/>
+            <field name="free_zone_ids" domain='free_zone_domain' widget='many2many_tags'/>
+        </field>
+        
+      </field>
+    </record>
+ </data>
+</odoo>
